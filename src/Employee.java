@@ -9,19 +9,15 @@ public class Employee {
     private int department;
     private double salary;
 
-
     public Employee(String fullName, int department, double salary) {
         this.id = idCounter++;
         this.fullName = fullName;
         setDepartment(department);
         setSalary(salary);
     }
-
-
     public int getId() {
         return id;
     }
-
 
     public String getFullName() {
         return fullName;
