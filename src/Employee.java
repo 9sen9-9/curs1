@@ -2,7 +2,6 @@ import java.util.Objects;
 
 public class Employee {
 
-
     private static int idCounter = 1;
     private final int id;
     private String fullName;

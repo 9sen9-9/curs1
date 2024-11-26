@@ -16,7 +16,6 @@ public class Main {
         System.out.println("Среднее значение зарплат: " + getAverageSalary());
         printEmployeeNames();
     }
-
     private static void addEmployee(Employee employee) {
         if (employeeCount < employees.length) {
             employees[employeeCount++] = employee;
